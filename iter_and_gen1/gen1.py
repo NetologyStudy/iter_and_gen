@@ -1,9 +1,4 @@
 import types
-list_of_lists_1 = [
-        ['a', 'b', 'c'],
-        ['d', 'e', 'f', 'h', False],
-        [1, 2, None]
-    ]
 
 def flat_generator(list_of_lists):
     for list_ in list_of_lists:
